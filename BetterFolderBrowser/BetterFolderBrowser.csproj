@@ -9,8 +9,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BetterFolderBrowserNS</RootNamespace>
     <AssemblyName>BetterFolderBrowser</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-	<PackageID>BetterFolderBrowser</PackageID>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <PackageID>BetterFolderBrowser</PackageID>
     <RepositoryUrl>https://github.com/Willy-Kimura/BetterFolderBrowser.git</RepositoryUrl>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -24,6 +24,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>3</WarningLevel>
     <DocumentationFile>bin\Debug\BetterFolderBrowser.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
